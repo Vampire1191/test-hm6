@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
         integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
@@ -8,112 +7,105 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
 </head>
-
 <body>
-
-    <!-- logo-nav -->
     <header>
-
         <div class="container header-container">
             <nav class="navigation">
                 <a class="logo" href="./index.html">Web<span>Studio</span></a>
-                <button type="button" class="menu-btn menu-open-btn">
-                    <svg class="icon-menu" width="24" height="24">
+                <button type="button" class="menu-oppen-button">
+                    <svg class="icons-menu" width="24" height="24">
                         <use href="./images/icons.svg#icon-menu"></use>
                     </svg>
                 </button>
-                <ul class="nav-list">
-                    <li class="nav-list-item">
-                        <a class="nav-list-text current" href="./index.html">Studio</a>
+                <ul class="navigation-list">
+                    <li class="navigation-list-items">
+                        <a class="navigation-list-text actual" href="./index.html">Studio</a>
                     </li>
-                    <li class="nav-list-item">
-                        <a class="nav-list-text" href="">Portfolio</a>
+                    <li class="navigation-list-items">
+                        <a class="navigation-list-text" href="">Portfolio</a>
                     </li>
-                    <li class="nav-list-item">
-                        <a class="nav-list-text" href="">Contacts</a>
+                    <li class="navigation-list-items">
+                        <a class="navigation-list-text" href="">Contacts</a>
                     </li>
                 </ul>
             </nav>
             <address class="address">
                 <ul class="adress-list">
-                    <li><a class="nav-addres" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li><a class="nav-addres" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                    <li class="adress-list-item"><a class="navigation-addres" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li class="adress-list-item"><a class="navigation-addres" href="tel:+110001111111">+11 (000) 111-11-11</a>
                     </li>
                 </ul>
             </address>
         </div>
-        <!-- MOB-MENU -->
-        <div class="mob-menu">
+        
+        <div class="mobile-menu">
             <div>
-                <button type="button" class="menu-close-btn">
-                    <svg class="menu-icon-close " width="8" height="8">
+                <button type="button" class="menu-closse-button">
+                    <svg class="menu-icons-closse " width="8" height="8">
                         <use href="./images/icons.svg#icon-close"></use>
                     </svg>
                 </button>
-                <nav class="mob-navigation">
-                    <ul class="mob-nav-list">
-                        <li class="mob-nav-list-item">
-                            <a class="mob-nav-list-text" href="./index.html">Studio</a>
+                <nav class="mobile-navigation">
+                    <ul class="mobile-navigation-list">
+                        <li class="mobile-navigation-list-items">
+                            <a class="mobile-navigation-list-text" href="./index.html">Studio</a>
                         </li>
-                        <li class="mob-nav-list-item">
-                            <a class="mob-nav-list-text" href="">Portfolio</a>
+                        <li class="mobile-navigation-list-items">
+                            <a class="mobile-navigation-list-text" href="">Portfolio</a>
                         </li>
-                        <li class="mob-nav-list-item">
-                            <a class="mob-nav-list-text" href="">Contacts</a>
+                        <li class="mobile-navigation-list-items">
+                            <a class="mobile-navigation-list-text" href="">Contacts</a>
                         </li>
                     </ul>
                 </nav>
 
             </div>
             <div>
-                <address class="mob-address">
-                    <ul class="mob-adress-list">
-                        <li class="mob-adress-item"><a class="mob-nav-addres"
-                                href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                        <li class="mob-adress-item"><a class="mob-nav-addres" href="tel:+110001111111">+11 (000)
-                                111-11-11</a>
+                <address class="mobile-address">
+                    <ul class="mobile-adress-list">
+                        <li class="mobile-adress-items">
+                            <a class="mob-nav-addres" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                        </li>
+                        <li class="mobile-adress-items">
+                            <a class="mobile-navigation-addres" href="tel:+110001111111">+11 (000) 111-11-11</a>
                         </li>
                     </ul>
                 </address>
 
                 <div class="mob-menu-social">
-                    <ul class="mob-social-icon-list">
-                        <li class="mob-social-icon-title">
-                            <a class="mob-social-link" href="">
-                                <svg class="mob-social-icon-item" width="24" height="24">
+                    <ul class="mobile-social-icons-list">
+                        <li class="mobile-social-icons-title">
+                            <a class="mobile-social-link" href="">
+                                <svg class="mobile-social-icons-items" width="24" height="24">
                                     <use href="./images/icons.svg#icon-instagram"></use>
                                 </svg>
                             </a>
                         </li>
                         <li class="mob-social-icon-title">
-                            <a class="mob-social-link" href="">
-                                <svg class="mob-social-icon-item" width="24" height="24">
+                            <a class="mobile-social-link" href="">
+                                <svg class="mobile-social-icons-items" width="24" height="24">
                                     <use href="./images/icons.svg#icon-twitter"></use>
                                 </svg>
                             </a>
                         </li>
-                        <li class="mob-social-icon-title">
-                            <a class="mob-social-link" href="">
-                                <svg class="mob-social-icon-item" width="24" height="24">
+                        <li class="mobile-social-icons-title">
+                            <a class="mobile-social-link" href="">
+                                <svg class="mobile-social-icons-items" width="24" height="24">
                                     <use href="./images/icons.svg#icon-facebook"></use>
                                 </svg>
                             </a>
                         </li>
-                        <li class="mob-social-icon-title">
-                            <a class="mob-social-link" href="">
-                                <svg class="mob-social-icon-item" width="24" height="24">
+                        <li class="mobile-social-icons-title">
+                            <a class="mobile-social-link" href="">
+                                <svg class="mobile-social-icons-items" width="24" height="24">
                                     <use href="./images/icons.svg#icon-linkedin"></use>
                                 </svg>
                             </a>
@@ -127,35 +119,32 @@
         </div>
     </header>
     <main>
-        <!-- section1 -->
-        <section class="hero linear">
-
+        <!-- section-1 -->
+        <section class="hero line">
             <div class="container hero-container">
                 <h1 class="hero-title">Effective Solutions
                     for Your Business</h1>
-                <button class="btn" type="button">Order Service</button>
+                <button class="button" type="button">Order Service</button>
             </div>
         </section>
-        <!-- section2 -->
+        <!-- section-2 -->
         <section class="feature">
             <div class="container">
                 <h2 class="visually-hidden"></h2>
                 <ul class="feature-list">
-                    <li class="feature-item">
-                        <div class="feature-icon-bg">
-                            <svg class="feature-icon" width="64" height="64">
+                    <li class="feature-items">
+                        <div class="feature-icons-background">
+                            <svg class="feature-icons" width="64" height="64">
                                 <use href="./images/icons.svg#icon-antenna"></use>
                             </svg>
                         </div>
-                        <h3 class="feature-title">Strategy</h3>
-                        <p class="feature-text">Our goal is to identify the business
+                        <h3 class="feature-titles">Strategy</h3>
+                        <p class="feature-txt">Our goal is to identify the business
                             problem to walk away with the
                             perfect and creative solution.</p>
-
-
                     </li>
-                    <li class="feature-item">
-                        <div class="feature-icon-bg">
+                    <li class="feature-items">
+                        <div class="feature-icons-background">
                             <svg class="feature-icon" width="64" height="64">
                                 <use href="./images/icons.svg#icon-clock"></use>
                             </svg>
@@ -399,7 +388,7 @@
                                     media="(min-width: 768px)" />
                                 <source srcset="./images/portfolio/1x1.jpg 1x, ./images/portfolio/1x2.jpg 2x"
                                     media="(min-width: 320px)" />
-                                <img src="./images/portfolio/1dx2.jpg" alt="App" width="288"
+                                <img src="./images/portfolio/1dx2.jpg" alt="App"
                                     class="portfolio-image-src" />
                             </picture>
 
@@ -425,7 +414,7 @@
                                     media="(min-width: 768px)" />
                                 <source srcset="./images/portfolio/2x1.jpg 1x, ./images/portfolio/2x2.jpg 2x"
                                     media="(min-width: 320px)" />
-                                <img src="./images/portfolio/2dx2.jpg" alt="Smart" width="288"
+                                <img src="./images/portfolio/2dx2.jpg" alt="Smart"
                                     class="portfolio-image-src" />
                             </picture>
                             <p class="project-cover-text">14 Stylish and
@@ -448,7 +437,7 @@
                                     media="(min-width: 768px)" />
                                 <source srcset="./images/portfolio/3x1.jpg 1x, ./images/portfolio/3x2.jpg 2x"
                                     media="(min-width: 320px)" />
-                                <img src="./images/portfolio/3dx2.jpg" alt="Mac" width="288"
+                                <img src="./images/portfolio/3dx2.jpg" alt="Mac"
                                     class="portfolio-image-src" />
                             </picture>
                             <p class="project-cover-text">14 Stylish and
@@ -472,7 +461,7 @@
                                     media="(min-width: 768px)" />
                                 <source srcset="./images/portfolio/4x1.jpg 1x, ./images/portfolio/4x2.jpg 2x"
                                     media="(min-width: 320px)" />
-                                <img src="./images/portfolio/4dx2.jpg" alt="Car" width="288"
+                                <img src="./images/portfolio/4dx2.jpg" alt="Car"
                                     class="portfolio-image-src" />
                             </picture>
                             <p class="project-cover-text">14 Stylish and
@@ -496,7 +485,7 @@
                                     media="(min-width: 768px)" />
                                 <source srcset="./images/portfolio/5x1.jpg 1x, ./images/portfolio/5x2.jpg 2x"
                                     media="(min-width: 320px)" />
-                                <img src="./images/portfolio/5dx2.jpg" alt="Wall" width="288"
+                                <img src="./images/portfolio/5dx2.jpg" alt="Wall"
                                     class="portfolio-image-src" />
                             </picture>
                             <p class="project-cover-text">14 Stylish and
@@ -520,7 +509,7 @@
                                     media="(min-width: 768px)" />
                                 <source srcset="./images/portfolio/6x1.jpg 1x, ./images/portfolio/6x2.jpg 2x"
                                     media="(min-width: 320px)" />
-                                <img src="./images/portfolio/6dx2.jpg" alt="Girl" width="288"
+                                <img src="./images/portfolio/6dx2.jpg" alt="Girl"
                                     class="portfolio-image-src" />
                             </picture>
                             <p class="project-cover-text">14 Stylish and
@@ -544,7 +533,6 @@
 
     <!-- footer -->
     <footer class="footer">
-
         <div class="container footer-container">
             <div class="footer-logo-text">
                 <a class="logo-footer" href="./index.html">Web<span class="footer-span">Studio</span></a>
@@ -589,13 +577,15 @@
             <div class="footer-form">
                 <p class="footer-form-subtitle">Subscribe</p>
                 <form class="footer-bottom">
-                    <label class="footer-form-email"><input type="email" name="footer-email" placeholder="E-mail"
-                            class="footer-input" /></label>
-                    <button type="submit" class="footer-form-btn">Subscribe
-                        <svg class="email-icon-footer" width="24" height="24">
-                            <use href="./images/icons.svg#icon-emailfoo"></use>
-                        </svg></button>
-                </form>
+                     <label class="footer-form-email">
+                         <input type="email" name="footer-email" placeholder="E-mail" class="footer-input"/>
+                     </label>
+                     <button type="submit" class="footer-form-btn">Subscribe
+                         <svg class="email-icon-footer" width="24" height="24">
+                             <use href="./images/icons.svg#icon-emailfoo"></use>
+                         </svg>
+                     </button>
+                 </form>
 
             </div>
         </div>
